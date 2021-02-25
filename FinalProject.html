@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Women of Color Who DJ</title>
+    <style>
+      h1,
+      h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+      }
+
+      h1 {
+        margin-block-end: 0.4em;
+        font-size: 36px;
+      }
+
+      h2 {
+        margin-block-start: 0.5em;
+      }
+
+      p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: normal;
+      }
+
+      body {
+        background: linear-gradient(#e66465, #9198e5);
+      }
+
+      ul {
+        padding: 0px;
+      }
+
+      li {
+        list-style: none;
+        padding: 10px 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .cream {
+        color: #ffffff;
+      }
+
+      .finale {
+        font-family: monospace;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto;
+        letter-spacing: 1px;
+      }
+
+      button {
+        display: flex;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 1px solid white;
+        margin: 40px auto 20px;
+        transition: all 200ms ease;
+        box-shadow: 4px 4px 4px rgb(201, 201, 201);
+      }
+
+      button:hover {
+        color: #9198e5;
+        background: #ffffff;
+      }
+
+      .btn-3b {
+        padding: 25px 60px 25px 60px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: #ffffff;
+        display: block;
+        background: #9198e5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      Women of Color who DJ
+    </h1>
+    <h2>
+      Representation in DJing
+    </h2>
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/5a9ae93ef793929dc7e72538/1584219466555-XR7KRZ5UK2CMV1RJPT7C/ke17ZwdGBToddI8pDm48kBi7xScbUs9pcvPURQYW4Ml7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmru5j-AQBePNiDV9hZLaF5MgvGoa-3yVZDmPDGYONS2oAeuLiDXkwNxoe_R445suy/IMG_9601.jpg?format=2500w"
+      width="300px"
+    />
+    <br />
+    <div>
+      <p>
+        <strong class="cream">
+          Being a disc jockey is an important role that many people take on in
+          the world of entertainment. When it comes down to having the right
+          music and vibe for an event, it's important to select someone that
+          knows how to keep the energy flowing the entire time. We often see and
+          hear of many male DJs taking on this role. It can be argued that DJing
+          is a male dominated field, and even though there are women who are
+          tasked with being the disc jockey, there are even fewer numbers of WOC
+          (women of color) in the industry.
+        </strong>
+        <br />
+        <em class="cream">
+          How can we further support WOC in the industry?
+        </em>
+        <br />
+        <br />
+        <span class="cream">
+          Below is a list of Female DJs who are shaking up the game. Check them
+          out and show some support!
+        </span>
+      </p>
+      <br />
+      <ul class="cream">
+        <li>
+          <a
+            class="cream"
+            href="https://www.instagram.com/brittanysky/?hl=en"
+            target="_blank"
+          >
+            Dj Brittany Sky
+          </a>
+        </li>
+        <li>
+          <a
+            class="cream"
+            href="https://www.instagram.com/siobhanbell/?hl=en"
+            target="_blank"
+          >
+            Dj Siobhan Bell
+          </a>
+        </li>
+        <li>
+          <a
+            class="cream"
+            href="https://www.instagram.com/mercedesfbenson/?hl=en"
+            target="_blank"
+          >
+            Dj Mercedes Benson
+          </a>
+        </li>
+        <li>
+          <a
+            class="cream"
+            href="https://www.instagram.com/jadab0o/?hl=en"
+            target="_blank"
+          >
+            Dj Jadaboo
+          </a>
+        </li>
+        <li>
+          <a
+            class="cream"
+            href="https://www.instagram.com/thedjfibonacci/?hl=en"
+            target="_blank"
+          >
+            Dj Fibonacci
+          </a>
+        </li>
+        <li>
+          <a
+            class="cream"
+            href="https://www.instagram.com/kittycash/?hl=en"
+            target="_blank"
+          >
+            Dj Kitty Cash
+          </a>
+        </li>
+      </ul>
+      <button class="btn-3b">
+        Sign Up for Our Weekly Blog Post!
+      </button>
+      <br />
+      <hr />
+      <p class="finale">
+        Coded by Yetunde Obasade
+      </p>
+    </div>
+    <script>
+      function signUpForOurWeeklyBlogPost() {
+        let age = prompt("What is your age?");
+
+        if (age <= 15) {
+          alert("You are too young to sign up ☹");
+        } else {
+          let name = prompt("What is your name?");
+          let email = prompt("What is your email?");
+
+          alert(`You are now signed up ${name}!`);
+        }
+      }
+
+      let signUpButton = document.querySelector("button");
+      signUpButton.addEventListener("click", signUpForOurWeeklyBlogPost);
+    </script>
+  </body>
+</html>
